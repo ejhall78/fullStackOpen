@@ -7,6 +7,7 @@ const Button = ({text, handleClick}) => (
   </button>
 )
 
+// It would be clearer if a single statistic is named Stat to avoid confusion
 const Stat = ({text, value}) => {
   return (
     <tr>
